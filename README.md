@@ -81,4 +81,10 @@ REST API of Instagram's functionalities; developed using GO (and Mongo).
   * To get details of all the posts on the feed, run `curl localhost:3000/posts`
   * To get all the posts of a particular user, run `curl localhost:3000/users/_id_`
 
+## Sample images:
 
+
+<p align="center">Fetching all available Users<br><img src="https://github.com/Srish-tii/Instagram-backend-api/blob/main/assets/GetUsers.PNG"></p>
+<p align="center">Creating a new User<br><img src="https://github.com/Srish-tii/Instagram-backend-api/blob/main/assets/CreatingUser.PNG"></p>
+<p align="center">Users in MongoDB<br><img src="https://github.com/Srish-tii/Instagram-backend-api/blob/main/assets/StoringInDB.png"></p>
+<p align="center">Fetching User using ID<br><img src="https://github.com/Srish-tii/Instagram-backend-api/blob/main/assets/fetchingUserFromId.PNG"></p>
