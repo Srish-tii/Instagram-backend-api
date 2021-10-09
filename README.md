@@ -88,3 +88,6 @@ REST API of Instagram's functionalities; developed using GO (and Mongo).
 <p align="center">Creating a new User<br><img src="https://github.com/Srish-tii/Instagram-backend-api/blob/main/assets/CreatingUser.PNG"></p>
 <p align="center">Users in MongoDB<br><img src="https://github.com/Srish-tii/Instagram-backend-api/blob/main/assets/StoringInDB.png"></p>
 <p align="center">Fetching User using ID<br><img src="https://github.com/Srish-tii/Instagram-backend-api/blob/main/assets/fetchingUserFromId.PNG"></p>
+<p align="center">Creating A Post<br><img src="https://github.com/Srish-tii/Instagram-backend-api/blob/main/assets/FetchingAllPosts.PNG"></p>
+<p align="center">Posts in db<br><img src="https://github.com/Srish-tii/Instagram-backend-api/blob/main/assets/StoringInDB.png"></p>
+
