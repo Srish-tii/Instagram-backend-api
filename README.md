@@ -22,7 +22,7 @@ REST API of Instagram's functionalities; developed using GO (and Mongo).
 3. Fetch details of the user using id
 * GET request
 * Displays user id, name, email and hash of the password
-* URL: "users/<id>"
+* URL: "users/_id_"
 
 ## Added functionalities:
 
@@ -48,7 +48,7 @@ REST API of Instagram's functionalities; developed using GO (and Mongo).
 ### Prerequisites/ Software requirements:
   
 * Go 
-* Terminal
+* Linux shell (eg. Gitbash)
 * Install mongo dependencies (run: go get go.mongodb.org/mongo-driver/mongo)
   
 ### Steps:
@@ -60,6 +60,6 @@ REST API of Instagram's functionalities; developed using GO (and Mongo).
 * In this other terminal, run the commands for the specific functionality required: (make sure the path to curl is set under environment variables)
   * To create a new user, run :  curl localhost:3000/users -X POST -d '{"id":"<user id>","name":"<name>","email":"<email>","pwd":"<password>"}' -H "Content-Type: application/json"
   * To get details of all the users, run : curl localhost:3000/users
-  * To get the details of a particular user, run : curl localhost:3000/users/<user id>
+  * To get the details of a particular user, run : curl localhost:3000/users/_id_
 
 
