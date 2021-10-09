@@ -471,7 +471,7 @@ func newUserpostsHandler() *userpostsHandler {
 
 //MAIN FUNCTION WHICH RUNS ON STARTING SERVER
 func main() {
-	fmt.Println("working lol")
+	fmt.Println("Server started...")
 
 	usersHandler := newUsersHandler()
 	userpostsHandler := newUserpostsHandler()
