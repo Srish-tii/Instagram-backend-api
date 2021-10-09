@@ -65,20 +65,20 @@ REST API of Instagram's functionalities; developed using GO (and Mongo).
   
 * Go 
 * Linux shell (eg. Gitbash)
-* Install mongo dependencies (run: go get go.mongodb.org/mongo-driver/mongo)
+* Install mongo dependencies (run `go get go.mongodb.org/mongo-driver/mongo`)
   
 ### Steps:
 
 * Clone this repository 
 * cd to the folder "cmd" in the terminal
-* Run the command "go run server.go"; This should start the server
+* Run the command `go run server.go`; This should start the server
 * Open another terminal in this folder (cmd)
 * In this other terminal, run the commands for the specific functionality required: (make sure the path to curl is set under environment variables)
-  * To create a new user, run :  curl localhost:3000/users -X POST -d '{"id":"<id>","name":"<name>","email":"<email>","pwd":"<password>"}' -H "Content-Type: application/json"
-  * To get details of all the users, run : curl localhost:3000/users
-  * To get the details of a particular user, run : curl localhost:3000/users/_id_
-  * To create a new post, run : curl localhost:3000/userpost -X POST -d '{"id":"<id>","caption":"<caption>","imageurl":"<url>"}' -H "Content-Type: application/json"
-  * To get details of all the posts on the feed, run : curl localhost:3000/posts
-  * To get all the posts of a particular user, run : curl localhost:3000/users/_id_
+  * To create a new user, run  `curl localhost:3000/users -X POST -d '{"id":"<id>","name":"<name>","email":"<email>","pwd":"<password>"}' -H "Content-Type: application/json"`
+  * To get details of all the users, run `curl localhost:3000/users`
+  * To get the details of a particular user, run `curl localhost:3000/users/_id_`
+  * To create a new post, run `curl localhost:3000/userpost -X POST -d '{"id":"<id>","caption":"<caption>","imageurl":"<url>"}' -H "Content-Type: application/json"`
+  * To get details of all the posts on the feed, run `curl localhost:3000/posts`
+  * To get all the posts of a particular user, run `curl localhost:3000/users/_id_`
 
 
